@@ -18,6 +18,7 @@ namespace Assignment_2
         }
 
         private void button2_Click(object sender, EventArgs e)
+            //The following code works out the total resistance or a series circuit//
         {
             double r1, r2, r3, r4, r5;
 
@@ -75,6 +76,7 @@ namespace Assignment_2
         }
 
         private void button1_Click(object sender, EventArgs e)
+            //The next stage of coding works out the resistance od a parallel circuit//
         {
             double r1, r2, r3, r4, r5;
 
@@ -125,8 +127,10 @@ namespace Assignment_2
             {
 
             }
+            //The last lines allow an answer to appear when asking the code to work out the resistance of the numbers entered//
             double rt = 1 / rrt;
             label1.Text = "total resistance =" + rt;
+            
                
         }
     }
